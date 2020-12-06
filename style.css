@@ -5,7 +5,7 @@ html,body{
 }
 @media (max-width: 660px) {
    #mainpgt{
-     font-size: 3.0em;
+     font-size: 10px;
      margin-bottom: 200px;
      z-index: 2;
    }
@@ -68,7 +68,7 @@ section img{
 #mainpgt{
    position: relative;
    color: #ffffff;
-   font-size: 10em;
+   font-size: 8em;
    z-index: 2;
    display: flex;
 }
