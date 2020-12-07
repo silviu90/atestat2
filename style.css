@@ -13,15 +13,19 @@ html,body{
      height: 80vh;
      z-index: 3;
    }
-   img #moon{
+   #moon{
      height: auto;
      width: 400px;
+     object-fit: cover;
    }
    section img{
       object-fit: cover;
    }
    #head_main1{
       font-size: 19px;
+   }
+   #earth_moon{
+      object-fit: cover;
    }
 }
 
@@ -71,6 +75,10 @@ section img{
    font-size: 8em;
    z-index: 2;
    display: flex;
+}
+#earth_moon img{
+   object-fit: cover;
+   width:100%;
 }
 #road{
    z-index: 3;
