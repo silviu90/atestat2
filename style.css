@@ -68,7 +68,6 @@ section img{
    display: flex;
 
 }
-
 #mainpgt{
    position: relative;
    color: #ffffff;
@@ -76,32 +75,50 @@ section img{
    z-index: 2;
    display: flex;
 }
-#earth_moon img{
-   object-fit: cover;
-   width:100%;
-}
 #road{
    z-index: 3;
    display: flex;
 }
 
+.bottom{
+   justify-content: center;
+   display:inline-block;
+   display: flex;
+}
+
 .container1{
+   background-image: url("img/FullMoon2010.jpg");
+   background-size: cover;
+   background-position: center;
+   display: flex;
+}
+.container2{
    background-color: #0a2a43;
    display: flex;
 }
-#head_main1{
-   padding-top: 15px;
-   padding-left: 15px;
-   padding-right: 15px;
+#head_main0{
+   padding-top: 30px;
+   padding-left: 50px;
+   padding-right: 30px;
+   padding-bottom: 30px;
    color: #ffffff;
-   display: inline-block;
+   display: block;
+   text-align: center;
+}
+#head_main1{
+   padding-top: 10px;
+   padding-left: 15px;
+   padding-right: 30px;
+   color: #ffffff;
+   display: block;
 }
 #text_main{
    padding-top: 15px;
-   background-color: #0a2a43;
    font-size: 20px;
+   font-weight: 560;
    color: #ffffff;
    display: inline-block;
+   background-color: transparent;
 }
 #head_main{
    padding-top: 15px;
