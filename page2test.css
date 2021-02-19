@@ -3,7 +3,6 @@ html,body{
    scroll-behavior: smooth;
    height: 100%;
 }
-
 @media (max-width: 660px) {
    #mainpgt{
      font-size: 10px;
@@ -29,6 +28,7 @@ html,body{
       object-fit: cover;
    }
 }
+
 *
 {
    margin:0;
@@ -38,18 +38,24 @@ html,body{
    list-style: none;
    box-sizing: border-box;
 }
-canvas {
-   position: absolute;
-   display: flex;
+body, html {
+   background-color: #000;
+   color: #fff;
    width: 100%;
+   height: 100%;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-size: cover;
+}
+canvas {
+   position: relative;
    top:0;
    left:0;
-   z-index:1;
+   width: 100%;
+   display: flex;
+   background-size: cover;
 }
-body{
-   background-color:#000;
-}
-
 section{
    position: relative;
    width:100%;
@@ -63,11 +69,26 @@ section{
    background-size: cover;
 }
 
+section img{
+   position: absolute;
+   top:0;
+   left:0;
+   width:100%;
+   height:100%;
+   object-fit: center;
+   pointer-events: none;
+   display: flex;
+
+}
 #mainpgt{
    position: relative;
    color: #ffffff;
    font-size: 8em;
    z-index: 2;
+   display: flex;
+}
+#road{
+   z-index: 3;
    display: flex;
 }
 
@@ -76,16 +97,13 @@ section{
    display:inline-block;
    display: flex;
 }
-.container0{
-height:9%;
-}
+
 .container1{
+   background-image: url("img/FullMoon2010.jpg");
    background-size: cover;
    background-position: center;
    display: flex;
-   z-index:2;
 }
-
 .container2{
    background-color: #0a2a43;
    display: flex;
@@ -105,12 +123,11 @@ height:9%;
    padding-right: 30px;
    color: #ffffff;
    display: block;
-   font-weight: bold;
 }
 #text_main{
    padding-top: 15px;
    font-size: 20px;
-   font-weight: 700;
+   font-weight: 560;
    color: #ffffff;
    display: inline-block;
    background-color: transparent;
@@ -125,7 +142,7 @@ height:9%;
 
 .footer{
    width: 100%;
-   background-color: #000;
+   background-color: black;
    height: 200px;
    color: white;
    display: flex;

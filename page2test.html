@@ -2,16 +2,14 @@
 <html>
    <head>
       <title>Moon</title>
-      <meta charset="utf">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta charset="utf">
+      <script src="https://kit.fontawesome.com/a076d05399.js"></script>
       <script src="https://kit.fontawesome.com/a076d05399.js"></script>
       <link rel="stylesheet" type="text/css" href="style.css">
       <link rel="stylesheet" type="text/css" href="nav.css">
-      <link rel="stylesheet" type="text/css" href="form.css">
-   
    </head>
    <body>
-      <!--Nav-->
       <nav>
          <input type="checkbox" id="check">
          <label for="check" class="checkbtn">
@@ -20,14 +18,12 @@
          <label class="logo">theMOON</label>
          <ul>
            <li><a href="index.html">Home</a></li>
-           <li><a href="page2.html">Moonlight</a></li>
+           <li><a class="active" href="page2.html">Moonlight</a></li>
            <li><a href="page3.html">More</a></li>
-           <li><a class="active" href="page4.html">About</a></li>
+           <li><a href="page4.html">About</a></li>
          </ul>
        </nav>
-       <!-- contact form-->
-      <div id="space">
-      </div>
+       <canvas id="bgCanvas"></canvas>
       <!---footer with contact--> 
       <div class="footer" id="contact">
          <p>© 2020 LuncaWeb</p>
@@ -43,5 +39,6 @@
          </div>
      </div>
       <script src="background.js"></script>
+      <script src="animation.js"></script>
    </body>
 </html>
