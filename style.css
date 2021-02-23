@@ -10,24 +10,6 @@ html,body{
      margin-bottom: 200px;
      z-index: 2;
    }
-   section{
-     height: 80vh;
-     z-index: 3;
-   }
-   #moon{
-     height: auto;
-     width: 400px;
-     object-fit: cover;
-   }
-   section img{
-      object-fit: cover;
-   }
-   #head_main1{
-      font-size: 19px;
-   }
-   #earth_moon{
-      object-fit: cover;
-   }
 }
 *
 {
@@ -47,7 +29,7 @@ canvas {
    z-index:1;
 }
 body{
-   background-color:#000;
+   background-color:#0a2a43;
 }
 
 section{
@@ -134,6 +116,7 @@ height:9%;
    align-items: center;
    font-family: 'Roboto', sans-serif;
    text-align: center;
+   z-index: 1;
 }
 .footer p {
    padding: 0.3rem;
