@@ -5,7 +5,7 @@
    window.requestAnimationFrame = requestAnimationFrame;
 })();
 
-//muntii Rarau pt1.
+//mountains 
 var background = document.getElementById("bgCanvas"),
    bgCtx = background.getContext("2d"),
    width = window.innerWidth,
@@ -28,7 +28,7 @@ function Terrain(options) {
    this.fillStyle = options.fillStyle || "#191D4C";
    this.mHeight = options.mHeight || height;
 
-   // generation de le points
+   // this points
    this.points = [];
 
    var displacement = options.displacement || 140,
@@ -50,7 +50,7 @@ function Terrain(options) {
 }
 
 Terrain.prototype.update = function () {
-   // desen munti
+   // mountains
    this.terCtx.clearRect(0, 0, width, height);
    this.terCtx.fillStyle = this.fillStyle;
    
