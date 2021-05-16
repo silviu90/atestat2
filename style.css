@@ -42,7 +42,7 @@ section2{
    overflow:hidden;
    display:flex;
    flex-direction: column;
-   background-image: url(/img/moon2d.jpg);
+   background-image: url(/img/moon2d.png);
    justify-content: center;
    align-items: center;
    background-size: cover;
@@ -99,7 +99,7 @@ section{
 height:9%;
 }
 .container2{
-   background-image: url(/img/moon_rocks.jpg);
+   background-image: url(/img/moon_rocks.png);
    padding-top: 5px;
    padding-bottom: 15px;
    background-size: cover;
