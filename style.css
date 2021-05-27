@@ -98,6 +98,15 @@ section{
 .container0{
 height:9%;
 }
+.container3{
+   background-image: url(/img/filmmoon.png);
+   padding-top: 5px;
+   padding-bottom: 15px;
+   background-size: cover;
+   background-position: center;
+   display: flex;
+   z-index:2;
+}
 .container2{
    background-image: url(/img/moon_rocks.png);
    padding-top: 5px;
@@ -142,9 +151,28 @@ height:9%;
    font-weight: 250;
    text-shadow: 2px 2px 4px #000000;
 }
+#head_main2{
+   padding-top: 75px;
+   padding-left: 15px;
+   padding-right: 30px;
+   color: #ffffff;
+   display: block;
+   font-weight: 250;
+   text-shadow: 2px 2px 4px #000000;
+}
 #text_main1{
    padding-top: 15px;
    font-size: 35px;
+   font-weight: 400;
+   color: #ffffff;
+   display: inline-block;
+   background-color: transparent;
+   text-shadow: 2px 2px 4px #000000;
+}
+#text_main3{
+   padding-top: 95px;
+   padding-bottom: 95px;
+   font-size: 20px;
    font-weight: 400;
    color: #ffffff;
    display: inline-block;
